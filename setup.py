@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'mr_imu_test'
+package_name = 'mr_sensors_test'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mr_imu_or_tf = mr_imu_test.mr_imu_or_tf:main',
+            'mr_sensors_test_node = mr_sensors_test.mr_sensors_test_node:main',
         ],
     },
 )
